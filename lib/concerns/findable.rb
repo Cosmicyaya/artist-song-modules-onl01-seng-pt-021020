@@ -6,3 +6,4 @@ module Find_by_name
       @song.detect{|a| a.name == name}
     end
   end
+end
