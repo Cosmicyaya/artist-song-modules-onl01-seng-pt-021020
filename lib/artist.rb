@@ -30,6 +30,3 @@ class Artist
 end
 
 include Paramable
-end
-
-end
