@@ -8,3 +8,11 @@ module Memorable
     all.count
   end
 end
+
+class Artist
+  extend
+end
+
+class Song
+  extend
+end
