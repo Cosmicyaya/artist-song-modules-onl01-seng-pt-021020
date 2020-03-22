@@ -22,8 +22,5 @@ class Song
     @artist = artist
   end
 end
-
-  ##def to_param
-    ##name.downcase.gsub(' ', '-')
-  ##end
-##end
+  
+  include Paramable
