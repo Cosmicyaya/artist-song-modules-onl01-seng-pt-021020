@@ -27,5 +27,7 @@ class Artist
   def add_songs(songs)
     songs.each { |song| add_song(song) }
   end
-  
-  include Paramable
+end
+
+include Paramable
+end
